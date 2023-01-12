@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C53C3521-FC37-1690-A424-31139F122202" name="NARUDZBA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:08:26 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_narudzba" id="4A2ED424-E75E-ED4D-58A9-2B0B0E073C11">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:35 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="887A4207-87CC-5B64-F50D-49D56B949FE3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:52 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme" id="F6A18595-CB60-4212-5ABB-285C1CFF4F89">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:01 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos_kupnje" id="C88891F3-98C5-AB55-4577-BD4653EE8A36">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:08 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupac" id="DF00BC07-489D-BB67-17F9-20101F984A0A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:23:56 UTC</createdTime>
+<generatorID>BBF9F23F-1707-5E9B-A140-EFBBCC34A376</generatorID>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<referedAttribute>354C9E61-132D-BC3F-B49E-A82B8B828748</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD0313D4-19A8-1D88-8B1C-4B9092031A6C" name="NARUDZBA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:49 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A2ED424-E75E-ED4D-58A9-2B0B0E073C11</attributeRef>
+<attributeRef>DF00BC07-489D-BB67-17F9-20101F984A0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

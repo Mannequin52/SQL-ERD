@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC5A819A-3035-ABC8-8834-5CE811F7AED1" name="ADRESA_PP">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:10:14 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa_pp" id="FA84EF8A-A828-6A00-8969-C7FF731B69B5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:19 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="3F0F3DB8-7C05-7528-8519-4AD5CD1B38AA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:47 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="2809E35E-22BB-5AD2-24DD-5D7FCF8B4893">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:03 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="A875121A-2BDA-7840-0704-189970E390CA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:14 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="1323D891-8D1D-4616-B8BB-ADA3ED34C473">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:23 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_pp" id="13F76826-B939-5B66-8001-22D219485035">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:29:48 UTC</createdTime>
+<generatorID>696861F4-1118-668E-3414-A7BF3E0A87F9</generatorID>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<referedAttribute>E92CADC0-759D-7071-C826-638D435153D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63D795D3-B311-FDEE-987B-272F57EC15EC" name="ADRESA_PP PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:45 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA84EF8A-A828-6A00-8969-C7FF731B69B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

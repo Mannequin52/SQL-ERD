@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B889343-289E-EA1D-3316-814D04DB22C2" name="POVIJEST_CIJENA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:10:53 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_promjene" id="3D955150-F5DD-200A-B3B3-F9CC67299653">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:47 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_promjene" id="C972EB6A-172E-9F00-7D05-40F5938C8566">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:20:01 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="91AA9665-7066-C00E-D4E4-530DEA10E79E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:20:14 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="47755C96-EE08-ACE8-E3C9-32C338144916">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:20:28 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_isteka" id="8099072D-8A31-5071-950F-BFA2813FE38D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:20:40 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_artikl" id="E75B34AD-D007-AB7B-81F4-F4E4B4D14CD8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:29:17 UTC</createdTime>
+<generatorID>0305B37A-2D40-3F7D-933B-9905268031AB</generatorID>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<referedAttribute>CF13181D-C820-400B-C26B-4EE42153F3F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="417E5E80-BCC4-C89C-F7C9-4DC4AA186FCE" name="POVIJEST_CIJENA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:59 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3D955150-F5DD-200A-B3B3-F9CC67299653,0305B37A-2D40-3F7D-933B-9905268031AB</newElementsIDs>
+<usedAttributes>
+<attributeRef>3D955150-F5DD-200A-B3B3-F9CC67299653</attributeRef>
+<attributeRef>E75B34AD-D007-AB7B-81F4-F4E4B4D14CD8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0DCCFF9A-B0D1-19B7-DEC3-B7B07DA63096" name="POVIJEST_CIJENA_UK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:48:26 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<newElementsIDs>C972EB6A-172E-9F00-7D05-40F5938C8566</newElementsIDs>
+<usedAttributes>
+<attributeRef>C972EB6A-172E-9F00-7D05-40F5938C8566</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

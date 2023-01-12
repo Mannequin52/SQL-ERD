@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFE5CD9E-390E-413D-77DA-42FF7FA96AC6" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:01:44 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_kupac" id="354C9E61-132D-BC3F-B49E-A82B8B828748">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:04:45 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="CBB7D4D0-40B4-7F93-F186-BA7193C52292">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:05:03 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="FD60939A-E8FA-8B25-1597-6033980FE9AC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:05:15 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="D921551A-ECB9-C0D0-ED7B-5456DDFC7BC4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:05:22 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_kupac" id="02B4C25B-2531-AEBC-1ED6-8DE91A3EB7F8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:05:32 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_pp" id="DAAA2530-DADC-755E-FC90-4E58118468A4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:27:02 UTC</createdTime>
+<generatorID>2E0B39C3-3C3D-A507-23F9-73C2EE8BD88C</generatorID>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<referedAttribute>E92CADC0-759D-7071-C826-638D435153D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="758E35D2-434A-90D1-5DB2-4F80D1A6DC00" name="KUPAC PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:05:00 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>354C9E61-132D-BC3F-B49E-A82B8B828748</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D1099479-A77A-FE69-2FDE-B2153EA4FCE6" name="KUPAC UK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:47:11 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<newElementsIDs>02B4C25B-2531-AEBC-1ED6-8DE91A3EB7F8</newElementsIDs>
+<usedAttributes>
+<attributeRef>02B4C25B-2531-AEBC-1ED6-8DE91A3EB7F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

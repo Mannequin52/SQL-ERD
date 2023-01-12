@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B691EA12-4006-3102-42E8-AC91C5AB7F29" name="EKIPA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 11:58:18 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EKP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ekipa" id="24D7F31B-5759-5971-F4F0-D49E05179793">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 11:59:40 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="6E9E972F-97EE-DC93-B124-BC545B241C3D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:37 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_igraca" id="84550C0D-4202-4CB3-9459-C6C21CF1B98D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:59 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust" id="9BC01735-0502-DA4B-F099-D192E3D7E41F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:01:16 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupac" id="A8CD3BDB-BCFB-B763-EDA9-74AE09F9861F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:28:53 UTC</createdTime>
+<generatorID>A2BCB04E-1BE8-C105-1454-706D901B95D3</generatorID>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<referedAttribute>354C9E61-132D-BC3F-B49E-A82B8B828748</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24804724-4D1E-3EDE-D44F-98D5B29D584C" name="EKIPA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:22 UTC</createdTime>
+<ownerDesignName>ERDSQL</ownerDesignName>
+<engineerTo>
+<item key="630A6615-B743-B5DC-5FA3-43F0A0B86E2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24D7F31B-5759-5971-F4F0-D49E05179793</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
